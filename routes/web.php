@@ -21,5 +21,5 @@ Route::get('/', function () {
 Route::post('/store', 'FwallController@store');
 Route::get('/load_data', 'FwallController@load_data');
 Route::get('edit/{id}', 'FwallController@edit');
-Route::post(' delete/{id}', 'FwallController@destroy');
+Route::post('delete/{id}', 'FwallController@destroy');
 Route::post('update/{id}', 'FwallController@update');
